@@ -50,7 +50,7 @@ public class LoginActivity extends AppCompatActivity {
 
         if(emailDigitado.equals("1") && senhaDigitada.equals("1")){
 
-            Intent intent = new Intent(this, MainActivity.class);
+            Intent intent = new Intent(this, HomeActivity.class);
 
             Bundle bundle = new Bundle();
 
